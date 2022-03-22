@@ -1,3 +1,0 @@
-#+TITLE: Machine Learning
-
-Hiring resources for Machine Learning roles at Vernacular.ai.
