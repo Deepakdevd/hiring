@@ -15,3 +15,10 @@
 ## run an image
  `$docker run -d -p 8000:8000 docker-server`
  
+## how to push image to conatiner regitry(DockerHub)
+ Follow the steps In your CLI
+ `$docker login`
+ 
+ `$docker tag docker-server <dockerid>/<image tobe named in registry>`
+ 
+ `$docker push <dockerid>/<image tobe named in registry> `
