@@ -7,5 +7,11 @@
 
 ##Steps:
 
-build image from Dockerfile
- `$docker build --tag docker-gs-ping .`
+##build image from Dockerfile
+ `$docker build -t docker-server .`
+## To look for docker images
+`$docker images ls`
+
+##run an image
+ `$docker run -d -p 8000:8000 docker-server`
+ 
