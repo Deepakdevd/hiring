@@ -4,10 +4,11 @@ metadata:
   namespace: {{ .Values.Namespacename }}
   name: {{ .Values.Servicename }}
 spec:
+  
   ports:
-    - port: 80
-      targetPort: 80
-      protocol: TCP
-  type: NodePort
+  - port: 8080
+    targetPort: 31000
+    protocol: TCP
+  type: LoadBalancer  
   selector:
     {{- toYaml .Values.selector| nindent 4 }}
