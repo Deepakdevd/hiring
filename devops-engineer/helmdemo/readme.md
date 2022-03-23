@@ -6,9 +6,9 @@
    
 ## for example we creating cluster using azure kubernetes
    ```sh
-     `$az login`
+     $az login
      [group craetion]
      `$az group create --name <grupname> --location <placename>
      [cluster name]
      `$az aks create -g <resourcegroname> -n <clustername>  --location <place> --generate--ssh-key`
-   ```sh  
+     
