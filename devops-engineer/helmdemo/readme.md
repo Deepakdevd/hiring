@@ -5,7 +5,7 @@
    [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/) is configured in your CLI
    
 ## for example we creating cluster using azure kubernetes
-   [CLI] 
+   ##CLI 
      `$az login`
      [group craetion]
      `$az group create --name <grupname> --location <placename>
