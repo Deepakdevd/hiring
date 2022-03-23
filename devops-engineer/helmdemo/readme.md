@@ -8,7 +8,7 @@
    ```sh
      $az login
      [group creation]
-     `$az group create --name <groupname> --location <placename>
+     $az group create --name <groupname> --location <placename>
      [cluster name]
      $az aks create -g <resourcegroupname> -n <clustername>  --location <place> --generate--ssh-key
      [get cluster credential where we get ./kube/config]
@@ -19,6 +19,7 @@
 
 `$helm create samplecode`
   (there will be standard dependencies file create like, template , chart, values we need to customise these file according to our cluster deployment)
+  
 2) deployging helm chart 
 
 `$helm insatl samplecode samplecode/`
@@ -28,3 +29,4 @@
 $kubectl get svc
 
 $kubectl get deployments
+```
