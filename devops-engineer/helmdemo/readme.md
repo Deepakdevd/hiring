@@ -13,7 +13,7 @@
      $az aks create -g <resourcegroupname> -n <clustername>  --location <place> --generate--ssh-key
      [get cluster credential where we get ./kube/config]
      $az aks get-credential --resource-group <groupname> --name <clustername>
-     
+   ```sh  
 ##depolyment using Helm  
 1) first we need to create directory ex: samplecode
 
