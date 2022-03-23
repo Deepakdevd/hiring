@@ -13,7 +13,7 @@ spec:
   selector:
     matchLabels:
       {{- toYaml .Values.matchLabels| nindent 6 }}
-  replicas: 5
+  replicas: 2
   template:
     metadata:
       labels:
@@ -24,4 +24,4 @@ spec:
         imagePullPolicy: {{ .Values.containers.imagePullPolicy }}
         name: {{ .Values.containers.name }}
         ports:
-        - containerPort: 80
+        - containerPort: 8080
