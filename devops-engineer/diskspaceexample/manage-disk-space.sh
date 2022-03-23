@@ -8,8 +8,8 @@ filename=audio_.wav_$timestamp.log
 log=$path$filename
 days=2
 
-for file in $(find $path -maxdepth 1 -type f -mmin +$((60*24*$days)) -print);       #find
-    do
-        echo $file $(ls -l --time-style='full-iso' $file | awk '{print $6}') $(date -Iseconds) >> $logfilename       #log
-        rm -f $file     #delete
+for file in $(find $path -maxdepth 1 -type f -mmin +$((60*24*$days)) -print); > $log      #find
+    do      
+        rm -f $file     
     done
+   
