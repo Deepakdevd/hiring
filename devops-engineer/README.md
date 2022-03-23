@@ -20,7 +20,7 @@ Deliverables:
 - A README file with instructions on how to build and run the image
 
 
-#### Solution to Question1
+
 
 #### Learning Resources
 - https://docs.docker.com/
