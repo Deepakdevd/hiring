@@ -10,9 +10,9 @@
    ``` 
 
 ## deploy file
-`$kubectl create deployment.yaml`
+`$kubectl create -f deployment.yaml`
 ## deploy service file
-`$kubectl create service.yaml`
+`$kubectl create -f service.yaml`
 
 ## watch for service and deployment created
 ```sh
