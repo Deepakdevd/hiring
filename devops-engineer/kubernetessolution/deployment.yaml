@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: webserver
-        image: <dockerid>/docker-server:v1
+        image: devdeep142/dcrimg1:latest
         ports:
         - containerPort: 8080
